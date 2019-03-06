@@ -1,0 +1,12 @@
+component_depth: 6
+languages:
+- name: "Java"
+  production:
+    exclude:
+    - ".*/examples/.*"
+  test:
+    include:
+    - ".*/stress/.*[.]java"
+  generated:
+    include:
+    - ".*/gen-java/.*"
